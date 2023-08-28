@@ -1,10 +1,19 @@
+'''
 for i in range(10):
     print("value i = ",i)
+'''
+sum=0
+for i in range(1,10):
+    sum=sum+i
 
-for i in range(5,20):
-    print("value i = ",i)
+    if(i==3):
+       continue
+    print("i = ",i)
+
+print(sum)
 
 
+'''
 
 for i in range(1,20,1):
     if(i%2==0):
@@ -32,3 +41,4 @@ for i in range(1,10,1):
 
 print(sum)
 
+'''
